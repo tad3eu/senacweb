@@ -1,0 +1,5 @@
+Passo a passo do GIT:
+
+Passo 1: Iniciar o Git, criando um repositório
+Passo 2: Adicionar os arquivos no INDEX
+Passo 3: Criar a primeira versão/ commit
