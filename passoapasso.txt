@@ -1,5 +1,21 @@
 Passo a passo do GIT:
 
+Passo 0: Configurar o Git
+    - git config --global user.name "tad3eu"
+    - git config --global user.email tad3eu@gmail.com
+    - git config --global user.ui true
+    
 Passo 1: Iniciar o Git, criando um repositório
+    - git init
+    
 Passo 2: Adicionar os arquivos no INDEX
+    - git add.
+    
 Passo 3: Criar a primeira versão/ commit
+    - git commit -m "primeira versao"
+
+Passo 4: Verificar o status
+    - git status
+    
+Passo 5: Verificar o log
+    - git log
