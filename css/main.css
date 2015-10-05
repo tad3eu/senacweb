@@ -1,0 +1,32 @@
+body {
+    background-image: url("/home/redes/senacweb/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: crimson;
+    text-align: left;
+}
+
+h2 {
+    color: crimson;
+    text-align: left;
+}
+
+img#principal {
+    width: 30%;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: justify;
+}
