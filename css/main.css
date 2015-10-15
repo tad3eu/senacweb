@@ -1,24 +1,21 @@
 body {
-    background-image: url("/home/redes/senacweb/img/background.jpg");
+    /*background-image: url("/home/redes/senacweb/img/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    color: crimson;
+    color: black;
     text-align: left;
 }
 
 h2 {
-    color: crimson;
+    color: black;
     text-align: left;
 }
 
-img#principal {
-    width: 30%;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
-}
 
 li {
     list-style: none;
@@ -29,4 +26,54 @@ p {
     font-family: "Times New Roman";
     font-size: 20px;
     text-align: justify;
+}
+
+.poster {
+    width: 30%;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    float: left;
+}
+
+.logo {
+    float: left;
+    height: 49;
+    width: 100px;
+}
+
+.sinopse {
+    clear: right;
+}
+
+#lista {
+    width: 100%;
+}
+
+#cabecalho {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    
+    float: left;
+    width: 100%;
+}
+
+.menu {
+    float: left;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 15px;
+    }
+
+.menu-link {
+    display: inline-block;
+    margin-right: 5px;
+}
+.menu-link:hover{
+    border: 
+}
+
+.form-pesquisa {
+    float: left;
+    margin-top: 15px;
 }
