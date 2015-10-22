@@ -1,54 +1,67 @@
 <!DOCTYPE html>
+
 <html>
     <head>
+        <meta charset="UTF-8">
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="icon" type="image/png" href="/img/icone.png"/>
         <title>IMDB - Filmes</title>
     </head>
-    
+
     <body>
-        
-        <header id="cabecalho">
-            <a href="index.html">
-                <img src="img/logo.png" class="logo" alt="Logo IMDB" title="IMDB">
-            </a>
-            
-        <nav class="menu">
-            <a class="menu-link" href="index.html">Home</a>
-            <a class="menu-link" href="lista.html" target="_blank">Lista de Filmes</a>
-            <a class="menu-link" href="Sobre" target="_blank">Sobre</a>
-        </nav>
-            
-        <form class="form-pesquisa">
-            <input type="text" id="pesquisa">
-            <button>Pesquisar</button>
-        </form>
-        </header>
-                
-        <h1>Perdido em Marte <small>(2015)</small></h1>
-        <h2>"The Martian" <em>(original title)</em></h2>
-        
-        <div>
-            <img class="poster" src="img/poster.jpg" alt="Poster - Perdido em Marte" title="Perdido em Marte">
+        <div class="centralizar">
+            <header id="cabecalho">
+                <a href="index.html">
+                    <img src="img/logo.png" class="logo" alt="Logo IMDB" title="IMDB">
+                </a>
+
+                <nav class="menu">
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="lista.html" target="_blank">Lista de Filmes</a>
+                    <a class="menu-link" href="sobre.html" target="_blank">Sobre</a>
+                </nav>
+
+                <form class="form-pesquisa">
+                    <input type="text" id="pesquisa">
+                    <button>Pesquisar</button>
+                </form>
+            </header>
+
+            <article class="conteudo">
+
+                <h1>Perdido em Marte <small>(2015)</small></h1>
+                <h2>"The Martian" <em>(original title)</em></h2>
+
+                <figure class="img-principal">
+                    <img class="poster"  src="img/img-principal.jpg" alt="Poster - Perdido em Marte" title="Perdido em Marte">
+                    <figcaption>Perdido em Marte (2015)</figcaption>
+                </figure>
+
+
+                <p class="sinopse">During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.</p>
+
+                <div class="img-lista">
+                    <h3>Imagens relacionadas:</h3>
+                    <ul>
+                        <li>
+                            <img src="img/listimg1.jpg" alt="Imagem 1">
+                        </li>
+                        <li>
+                            <img src="img/listimg2.jpg" alt="Imagem 2">
+                        </li>
+                        <li>
+                            <img src="img/listimg3.jpg" alt="Imagem 3">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <footer id="rodape">
+                <p>&copy; CopyRight - Site - Todos os direitos reservados.</p>
+            </footer>
+
         </div>
-        
-        <div class="texto">
-            During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.
-        </div>
-        
-        <ul>
-            <li>
-                <img id="lista" src="img/listimg1.jpg" alt="Imagem 1">
-            </li>
-            <li>
-                <img id="lista" src="img/listimg2.jpg" alt="Imagem 2">
-            </li>
-            <li>
-                <img id="lista" src="img/listimg3.jpg"  alt="Imagem 3">
-            </li>
-        </ul>
-        
     </body>
 </html>
