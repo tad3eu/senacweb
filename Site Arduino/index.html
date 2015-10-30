@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title>- H O M E -</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script>
+            function limpa() {
+                if((document.getElementById('usr').value!="") && (document.getElementById('pwd').value!="")) {
+                    document.getElementById('usr').value="";
+                    document.getElementById('pwd').value="";
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="jumbotron" align="center">
+            <img src="https://lh4.googleusercontent.com/-YzNfL1_rRf0/VCEVeVDhHdI/AAAAAAAAByI/NrgIUTJEHh0/w1200-h1200/Icone-Amigo_Homem.png" class="img-circle" alt="Imagem Usuário" width=25%>
+        </div>
+        <div class="form-group">
+            <label for="usr">Usuário:</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Senha:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <div align="center">
+            <a href="pagina2.html">
+                <button type="button" class="btn btn-success btn-lg">Login</button>
+            </a>
+            <button type="button" class="btn btn-danger btn-lg" onclick="limpa()">Limpar</button>
+        </div>
+        </br>
+    <div class="panel panel-default">
+        <div class="panel-footer">Senac - Chapecó/SC</div>
+    </div>
+    </body>
+</html>
