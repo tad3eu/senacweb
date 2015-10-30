@@ -12,31 +12,46 @@
                 if((document.getElementById('usr').value!="") && (document.getElementById('pwd').value!="")) {
                     document.getElementById('usr').value="";
                     document.getElementById('pwd').value="";
-                    }
+                }
             }
         </script>
     </head>
     <body>
-        <div class="jumbotron" align="center">
-            <img src="https://lh4.googleusercontent.com/-YzNfL1_rRf0/VCEVeVDhHdI/AAAAAAAAByI/NrgIUTJEHh0/w1200-h1200/Icone-Amigo_Homem.png" class="img-circle" alt="Imagem Usuário" width=25%>
+        <div class="container">
+            <div class="row col-sm-12 col-md-10 col-lg-8">
+                <div class="jumbotron" align="center">
+                    <img src="https://lh4.googleusercontent.com/-YzNfL1_rRf0/VCEVeVDhHdI/AAAAAAAAByI/NrgIUTJEHh0/w1200-h1200/Icone-Amigo_Homem.png" class="img-circle" alt="Imagem Usuário" width="50%">
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label for="usr">Usuário:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="pwd">Senha:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                </div>
+                <div align="center">
+                    <a href="pagina2.html">
+                        <button type="button" class="btn btn-success btn-md">Login</button>
+                    </a>
+                    <button type="button" class="btn btn-danger btn-md" onclick="limpa()">Limpar</button>
+                </div>
+                </br>
+            <div class="panel panel-default" class="col-md-8">
+                <div class="panel-footer"><address>
+                    <strong>Senac-SC | Chapecó</strong><br>
+                    Rua Castro Alves 298E, São Cristovão<br>
+                    Chapecó, SC 89803-110<br>
+                    <abbr title="Phone">T:</abbr> (49) 3361-5000
+                    </address>
+                    <address>
+                        <strong>Tadeu Pagliarini</strong><br>
+                        <a href="mailto:#">tad3eu@gmail.com</a>
+                    </address></div>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="usr">Usuário:</label>
-            <input type="text" class="form-control" id="usr">
         </div>
-        <div class="form-group">
-            <label for="pwd">Senha:</label>
-            <input type="password" class="form-control" id="pwd">
-        </div>
-        <div align="center">
-            <a href="pagina2.html">
-                <button type="button" class="btn btn-success btn-lg">Login</button>
-            </a>
-            <button type="button" class="btn btn-danger btn-lg" onclick="limpa()">Limpar</button>
-        </div>
-        </br>
-    <div class="panel panel-default">
-        <div class="panel-footer">Senac - Chapecó/SC</div>
-    </div>
     </body>
 </html>
